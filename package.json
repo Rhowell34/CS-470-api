@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "serve": " node ."
   },
   "dependencies": {
     "@mean-expert/loopback-sdk-builder": "^2.3.1",
@@ -19,6 +20,10 @@
     "loopback-boot": "^2.27.1",
     "loopback-component-explorer": "^5.3.0",
     "loopback-connector-mongodb": "^4.1.0",
+    "node-favicon": "^1.0.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.0.1",
+    "serve": "^14.2.1",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0"
   },
